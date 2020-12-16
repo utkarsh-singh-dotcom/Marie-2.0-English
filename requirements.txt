@@ -17,3 +17,6 @@ zalgo_text
 pynewtonmath
 bs4
 telegraph
+CurrencyConverter
+#googletrans
+google_trans_new
