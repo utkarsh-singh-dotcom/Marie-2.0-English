@@ -60,10 +60,10 @@ def add_blacklist(bot: Bot, update: Update):
 
         else:
             msg.reply_text(
-                "Added <code>{}</code> triggers to the blacklist.".format(len(to_blacklist)), parse_mode=ParseMode.HTML)
+                "Added <code>{}</code> triggers to the blacklist😝.".format(len(to_blacklist)), parse_mode=ParseMode.HTML)
 
     else:
-        msg.reply_text("Tell me which words you would like to remove from the blacklist.")
+        msg.reply_text("Tell me which words you would like to remove from the blacklist😘.")
 
 
 @run_async
@@ -83,14 +83,14 @@ def unblacklist(bot: Bot, update: Update):
 
         if len(to_unblacklist) == 1:
             if successful:
-                msg.reply_text("Removed <code>{}</code> from the blacklist!".format(html.escape(to_unblacklist[0])),
+                msg.reply_text("Removed <code>{}</code> from the blacklist🤩!".format(html.escape(to_unblacklist[0])),
                                parse_mode=ParseMode.HTML)
             else:
                 msg.reply_text("This isn't a blacklisted trigger...!")
 
         elif successful == len(to_unblacklist):
             msg.reply_text(
-                "Removed <code>{}</code> triggers from the blacklist.".format(
+                "Removed <code>{}</code> triggers from the blacklist🤩.".format(
                     successful), parse_mode=ParseMode.HTML)
 
         elif not successful:
@@ -147,8 +147,8 @@ def __stats__():
 __mod_name__ = "Word Blacklists"
 
 __help__ = """
-Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, \
-the message will immediately be deleted. A good combo is sometimes to pair this up with warn filters!
+Blacklists are used to stop certain triggers from being said in a group😘. Any time the trigger is mentioned, \
+the message will immediately be deleted😝. A good combo is sometimes to pair this up with warn filters👌!
 
 *NOTE:* blacklists do not affect group admins.
 
