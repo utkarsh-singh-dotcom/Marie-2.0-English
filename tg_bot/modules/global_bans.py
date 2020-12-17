@@ -32,8 +32,8 @@ GBAN_ERRORS = {
 }
 
 UNGBAN_ERRORS = {
-    "User is an administrator of the chat",
-    "Chat not found",
+    "User is an administrator of the chat😝",
+    "Chat not found😭",
     "Not enough rights to restrict/unrestrict chat member",
     "User_not_participant",
     "Method is available for supergroup and channel chats only",
@@ -91,7 +91,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         return
 
-    message.reply_text("⚡️ *Snaps the Banhammer* ⚡️")
+    message.reply_text("⚡️ *Another One Missed Last Hope 😝!* ⚡️")
 
     banner = update.effective_user  # type: Optional[User]
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS,
