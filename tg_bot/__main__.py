@@ -18,17 +18,22 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hii {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Heya! {}, my name is {}! if you have any questions about how to use me please give me /help... 
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+Let me know something more about myself;) 
+
+I'm a group manager bot maintained by  [this person](tg://user?id={}).
 
 My future updates will be put into This Channel - @TGBotLab & My Support Group @TGBotSupport.
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/sakshameng/Marie-2.0-English),
+This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/utkarsh-singh-dotcom/Marie-2.0-English),
 you can create clone same like me..
+
+Extra:)
 
 For more commands click /help...
 
+📑Note
 **Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 
 """
@@ -40,6 +45,10 @@ Hello! my name *{}*.
 *Main* available commands:
  - /start: Start the bot...
  - /help: help....
+ - /ban : Bans The User From your Group! (Must have permit of banning other;Admin)
+ - /warn : Warns The User!
+ - /gban : Used to ban Other By Owner of bot!
+ - /unwarn : Remove Warning!
  - /donate: To find out more about donating!
  - /settings:
    - in PM: To find out what SETTINGS you have set....
@@ -47,6 +56,7 @@ Hello! my name *{}*.
 Don't Forget To Join Our Channels
 1) @TGBotLab
 2) @TGBotSupport
+3) @LastHopeSupport
 
 {}
 And the following:
