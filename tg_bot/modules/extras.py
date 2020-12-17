@@ -200,6 +200,7 @@ EARS = [
 TOSS = (
     "Heads",
     "Tails",
+    "Draw",
 )
 
 @run_async
